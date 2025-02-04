@@ -5,7 +5,11 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
-				"E:/OpenMiniWorld/Content/LearningKit_Games/Maps/LearningKit_Games_Showcase.umap"
+				"E:/OpenMiniWorld/Content/LearningKit_Games/Maps/LearningKit_Games_Showcase.umap",
+				"E:/OpenMiniWorld/Content/Main.umap",
+				"E:/OpenMiniWorld/Content/SCK_Casual01/Blueprints/ThirdPersonCharacter.uasset",
+				"E:/OpenMiniWorld/Content/BP_ThirdPersonCharacter.uasset",
+				"E:/OpenMiniWorld/Content/BP_MovingPlatform.uasset"
 			]
 		}
 	]
