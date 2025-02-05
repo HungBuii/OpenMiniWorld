@@ -9,7 +9,11 @@
 				"E:/OpenMiniWorld/Content/Main.umap",
 				"E:/OpenMiniWorld/Content/SCK_Casual01/Blueprints/ThirdPersonCharacter.uasset",
 				"E:/OpenMiniWorld/Content/BP_ThirdPersonCharacter.uasset",
-				"E:/OpenMiniWorld/Content/BP_MovingPlatform.uasset"
+				"E:/OpenMiniWorld/Content/BP_MovingPlatform.uasset",
+				"E:/OpenMiniWorld/Content/BP_SimpleMovingPlatform.uasset",
+				"E:/OpenMiniWorld/Content/BP_SimpleRotatePlatform.uasset",
+				"E:/OpenMiniWorld/Content/Blueprints/BP_OpenMiniWorldGameMode.uasset",
+				"E:/OpenMiniWorld/Content/BP_OpenMiniWorldGameMode.uasset"
 			]
 		}
 	]

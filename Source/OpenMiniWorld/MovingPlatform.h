@@ -25,7 +25,7 @@ public:
 
 
 	// Velocity of the platform
-	UPROPERTY(EditAnywhere)
+	UPROPERTY(EditAnywhere, Category = "Moving")
 	FVector velocityPlatform = FVector(0, 0, 100);
 
 	// Start location of the platform
@@ -33,9 +33,12 @@ public:
 	FVector startLocation;
 
 	// Distance the platform can be moved
-	UPROPERTY(VisibleAnywhere)
-	float distance = 100;
+	UPROPERTY(VisibleAnywhere, Category = "Moving")
+	float distance = 500;
 
+	// Velocity rotation of the platform
+	UPROPERTY(EditAnywhere, Category = "Rotate Moving")
+	FRotator velocityRotation = FRotator(0, 50, 0);
 
 	// Function to get distance moved
 	float GetDistanceMoved() const;
@@ -45,4 +48,7 @@ public:
 
 	// Function to move platform
 	void MovePlatform(float DeltaTime);
+
+	// Function to rotate platform
+	void RotatePlatform(float DeltaTime);
 };

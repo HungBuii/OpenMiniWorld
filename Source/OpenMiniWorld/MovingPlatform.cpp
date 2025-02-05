@@ -26,8 +26,10 @@ void AMovingPlatform::Tick(float DeltaTime)
 	Super::Tick(DeltaTime);
 
 	MovePlatform(DeltaTime);
+	RotatePlatform(DeltaTime);
 }
 
+// Function to move platform
 void AMovingPlatform::MovePlatform(float DeltaTime)
 {
 	if (HasMovedOutOfDistance())
@@ -53,4 +55,10 @@ float AMovingPlatform::GetDistanceMoved() const
 	return FVector::Dist(startLocation, GetActorLocation());
 }
 
-
+// Function to rotate platform
+void AMovingPlatform::RotatePlatform(float DeltaTime)
+{
+	FRotator currentRotation = GetActorRotation();
+	currentRotation += velocityRotation * DeltaTime;
+	SetActorRotation(currentRotation);
+}
